@@ -14,6 +14,7 @@
 		EB6682472BAEF84000E0934B /* newblogappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6682462BAEF84000E0934B /* newblogappTests.swift */; };
 		EB6682512BAEF84000E0934B /* newblogappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6682502BAEF84000E0934B /* newblogappUITests.swift */; };
 		EB6682532BAEF84000E0934B /* newblogappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6682522BAEF84000E0934B /* newblogappUITestsLaunchTests.swift */; };
+		EB6682612BAF09A800E0934B /* BlogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6682602BAF09A800E0934B /* BlogModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EB66824C2BAEF84000E0934B /* newblogappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newblogappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6682502BAEF84000E0934B /* newblogappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newblogappUITests.swift; sourceTree = "<group>"; };
 		EB6682522BAEF84000E0934B /* newblogappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newblogappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB6682602BAF09A800E0934B /* BlogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		EB6682342BAEF83E00E0934B /* newblogapp */ = {
 			isa = PBXGroup;
 			children = (
+				EB66825F2BAF097B00E0934B /* Models */,
 				EB6682352BAEF83E00E0934B /* newblogappApp.swift */,
 				EB6682372BAEF83E00E0934B /* ContentView.swift */,
 				EB6682392BAEF83F00E0934B /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				EB6682522BAEF84000E0934B /* newblogappUITestsLaunchTests.swift */,
 			);
 			path = newblogappUITests;
+			sourceTree = "<group>";
+		};
+		EB66825F2BAF097B00E0934B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB6682602BAF09A800E0934B /* BlogModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB6682382BAEF83E00E0934B /* ContentView.swift in Sources */,
+				EB6682612BAF09A800E0934B /* BlogModel.swift in Sources */,
 				EB6682362BAEF83E00E0934B /* newblogappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
